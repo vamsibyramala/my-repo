@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Script to monitor CPU usage
+
+while true; do
+    echo "CPU Usage: $(top -bn1 | grep "Cpu(s)" | awk '{print $2 + $4}')%"
+    sleep 5
+done

@@ -1,1 +1,2 @@
 this is my-file from windows
+this is from git bash
